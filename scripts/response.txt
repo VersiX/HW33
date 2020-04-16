@@ -1,0 +1,138 @@
+{…
+}
+​
+Response: "True"
+​
+Search: (10) […
+]
+​​
+0: {…
+}
+​​​
+Poster: "https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+​​​
+Title: "Star Wars: Episode IV - A New Hope"
+​​​
+Type: "movie"
+​​​
+Year: "1977"
+​​​
+imdbID: "tt0076759"
+​​​
+<prototype>: Object { …
+}
+​​
+1: {…
+}
+​​​
+Poster: "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+​​​
+Title: "Star Wars: Episode V - The Empire Strikes Back"
+​​​
+Type: "movie"
+​​​
+Year: "1980"
+​​​
+imdbID: "tt0080684"
+​​​
+<prototype>: Object { …
+}
+​​
+2: Object { Title: "Star Wars: Episode VI - Return of the Jedi", Year: "1983", imdbID: "tt0086190", …
+}
+​​
+3: Object { Title: "Star Wars: Episode VII - The Force Awakens", Year: "2015", imdbID: "tt2488496", …
+}
+​​
+4: Object { Title: "Star Wars: Episode I - The Phantom Menace", Year: "1999", imdbID: "tt0120915", …
+}
+​​
+5: Object { Title: "Star Wars: Episode III - Revenge of the Sith", Year: "2005", imdbID: "tt0121766", …
+}
+​​
+6: Object { Title: "Star Wars: Episode II - Attack of the Clones", Year: "2002", imdbID: "tt0121765", …
+}
+​​
+7: Object { Title: "Star Wars: Episode VIII - The Last Jedi", Year: "2017", imdbID: "tt2527336", …
+}
+​​
+8: Object { Title: "Rogue One: A Star Wars Story", Year: "2016", imdbID: "tt3748528", …
+}
+​​
+9: Object { Title: "Star Wars: Episode IX - The Rise of Skywalker", Year: "2019", imdbID: "tt2527338", …
+}
+​​
+length: 10
+​​
+<prototype>: Array []
+​
+totalResults: "490"
+​
+<prototype>: Object { …
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Actors: "Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing"
+Awards: "Won 6 Oscars. Another 52 wins & 28 nominations."
+BoxOffice: "N/A"
+//Country: "USA"
+//DVD: "21 Sep 2004"
+//Director: "George Lucas"
+Genre: "Action, Adventure, Fantasy, Sci-Fi"
+Language: "English"
+Metascore: "90"
+Plot: "The Imperial Forces, under orders from cruel Darth Vader, hold Princess Leia hostage in their efforts to quell the rebellion against the Galactic Empire. Luke Skywalker and Han Solo, captain of the Millennium Falcon, work together with the companionable droid duo R2-D2 and C-3PO to rescue the beautiful princess, help the Rebel Alliance and restore freedom and justice to the Galaxy.
+Poster: "https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+Production: "20th Century Fox"
+Rated: "PG"
+Ratings: Array(3) [ ]
+//Released: "25 May 1977"
+//Response: "True"
+Runtime: "121 min"
+//Title: "Star Wars: Episode IV - A New Hope"
+//Type: "movie"
+//Website: "N/A"
+//Writer: "George Lucas"
+//Year: "1977"
+//imdbID: "tt0076759"
+imdbRating: "8.6"
+imdbVotes: "1,181,083"

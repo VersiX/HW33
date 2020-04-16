@@ -1,0 +1,61 @@
+@import "styles/font_src.scss";
+
+* {
+    font-family: "Roboto", "sans-serif";
+    font-weight: 400;
+}
+
+body {
+    padding-bottom: 200px;
+    background-color: rgb(36, 36, 36);
+}
+
+
+.row.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+    flex-grow: 1;
+}
+
+.poster {
+    color: white;
+    line-height: 4em;
+}
+
+.cover {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(36,36,36, 0.8);
+    
+    z-index: 11;
+}
+
+.custom-col {
+    padding: 0 30px 0 15px;
+}
+
+.details {
+    position: absolute;
+    
+   
+    z-index: 12;
+
+    &-wrapper {
+        position: absolute;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+    }
+}
+
+.r {
+    flex-wrap: nowrap;
+}

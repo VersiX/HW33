@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HW 33</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container content">
+        <header class="">
+            <h1 class="display-3 text-white text-center m-5">OMDb movie search</h1>
+
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Something clever.." id="input">
+                        <div class="input-group-append">
+                            <select class="custom-select rounded-0" id="selectType">
+                                <option selected value="">All</option>
+                                <option value="movie">movie</option>
+                                <option value="series">series</option>
+                                <option value="episode">episode</option>
+                            </select>
+                            <button class="btn btn-light" type="button" id="btn-cancel">&#128940;</button>
+                            <button class="btn btn-warning px-4" type="button" id="btn-submit">Submit</button>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+
+
+
+        <div class="row" id="movie-list"></div>
+
+
+        <h3 class="bg-warning rounded text-center p-3 px-5" id="noMatch" style="display: none;">No matches found :(</h3>
+        <div class="row justify-content-center">
+            <div class="spinner-border text-warning" id="loading" style="display: none;"></div>
+        </div>
+
+
+    </div>
+
+    <div class="details-wrapper">
+        <div class="cover"></div>
+
+        <div class="details container-sm m-md-5 m-sm-3" id="">
+
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
