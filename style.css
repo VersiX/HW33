@@ -22,7 +22,6 @@
 }
 
 body {
-  padding-bottom: 200px;
   background-color: #242424;
 }
 
@@ -60,11 +59,13 @@ body {
 
 .details {
   position: absolute;
+  max-height: 90vh;
   z-index: 12;
+  overflow-y: auto;
 }
 
 .details-wrapper {
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100vw;
   height: 100vh;
@@ -78,8 +79,19 @@ body {
   z-index: 10;
 }
 
-.r {
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+.movie:hover {
+  -webkit-transition: -webkit-transform 0.3s ease-in;
+  transition: -webkit-transform 0.3s ease-in;
+  transition: transform 0.3s ease-in;
+  transition: transform 0.3s ease-in, -webkit-transform 0.3s ease-in;
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+@media screen and (max-width: 767px) {
+  .details-img {
+    width: 100%;
+    height: auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */

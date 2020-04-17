@@ -6,7 +6,6 @@
 }
 
 body {
-    padding-bottom: 200px;
     background-color: rgb(36, 36, 36);
 }
 
@@ -40,12 +39,12 @@ body {
 
 .details {
     position: absolute;
-    
-   
+    max-height: 90vh;
     z-index: 12;
+    overflow-y: auto;
 
     &-wrapper {
-        position: absolute;
+        position: fixed;
         top: 0;
         width: 100vw;
         height: 100vh;
@@ -56,6 +55,15 @@ body {
     }
 }
 
-.r {
-    flex-wrap: nowrap;
+
+.movie:hover {
+    transition: transform 0.3s ease-in;
+    transform: scale(1.1, 1.1);
+}
+
+@media screen and (max-width:767px){
+    .details-img {
+        width: 100%;
+        height: auto;
+    }
 }
